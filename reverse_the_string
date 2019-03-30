@@ -1,0 +1,9 @@
+def reverse(x):
+    print("YOU TYPED > ",x)
+    a=list(reversed(x.split()))
+    c=" ".join(a)
+    return c
+    
+
+rev=reverse(input("WHAT YOU WANT TO REVERSE ?_  " ))
+print("MAGIC > ",rev)
